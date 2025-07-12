@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: rgb(64, 62, 62);
+
+}
+
+.titlebar {
+    text-align: center;
+    font-family: "Comic Relief", system-ui;
+    color: aliceblue;
+    padding: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    
+    
+}
+.container div{
+    
+    text-align: justify;
+    color: white;
+    margin: 10px;
+    flex-basis: 20%;
+    flex-grow: 1;
+    
+}
+
+.container div h2{
+    font-family: "Comic Relief", system-ui;
+}
+
+.container div p{
+     font-family: "Playfair Display", serif;
+     width: 200px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
